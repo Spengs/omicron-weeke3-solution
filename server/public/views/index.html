@@ -9,5 +9,24 @@
   </head>
   <body>
     <h1>Welcome to the Omicronculator!</h1>
+    <form id="calcForm">
+      <label for="inputX">Number:</label>
+      <input type="number" name="inputX" id="inputX" />
+
+      <select name="operation">
+        <option value="add">Add</option>
+        <option value="sub">Subtract</option>
+        <option value="div">Divide</option>
+        <option value="mult">Multiply</option>
+      </select>
+
+      <label for="inputY">Number:</label>
+      <input type="number" name="inputY" id="inputY" />
+
+      <button id="submit">Omicronculate!</button>
+    </form>
+    <div id="answer-container">
+      <h3>Answer: <span id="answer-text"></span></h3>
+    </div>
   </body>
 </html>
