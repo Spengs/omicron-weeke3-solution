@@ -28,8 +28,8 @@ $(document).ready(function() {
     }
   });
 
-  function updateDom(response, status) {
-    console.log('server says: ', status);
+  function updateDom(response) {
+    console.log('server says: ', response);
     $("#answer-text").text(response);
   }
 

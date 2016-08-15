@@ -31,7 +31,7 @@ router.post('/mult', function(req, res) {
   var answer = parseInt(math.inputX) * parseInt(math.inputY);
   console.log('answer: ', answer);
 
-  res.status(200).send(answer.toString());
+  res.send(answer.toString());
 });
 
 module.exports = router;
